@@ -5,10 +5,15 @@ timer is a golang packet, as high performance tick-time. Although the accuracy i
 Use the same standard package (time packet and NewTimer function)
 
 import ("timer")
+
 func main() {
+
 	tick := timer.NewTimer(1)
 	defer tick.Stop()
+	
 	select {
 	case <-tick.C:
+	// todo something
 	}
+	
 }
