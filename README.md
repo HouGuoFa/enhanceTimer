@@ -10,8 +10,7 @@
 ## Example
     
     import (
-        "timer"  //the standard golang package;
-        "enhanceTimer";
+        "enhanceTimer"  //the standard golang package;
     )
 
     func main() {
