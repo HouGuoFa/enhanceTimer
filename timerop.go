@@ -2,7 +2,7 @@
 	author houguofa
 	Copyright 2015 houguofa. All rights reserved.
 */
-package timer
+package enhanceTimer
 
 const (
 	unitTick       = 1
