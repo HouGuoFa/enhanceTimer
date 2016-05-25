@@ -5,7 +5,6 @@
 package timer
 
 import (
-	//"qqlive/golog"
 	"sync"
 	"time"
 )
