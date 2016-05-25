@@ -8,8 +8,7 @@
 - Add these source files to your program, named by enhanceTimer or something
 
 ## Example
-
-    ```
+    
     import (
         "timer"  //the standard golang package;
         "enhanceTimer" //or something you named this package, you can simply add these files to your GOPATH without import at the same time;
@@ -25,5 +24,4 @@
             // todo something
         }
     }
-
-    ```
+   
