@@ -22,7 +22,7 @@ type scheduler struct {
 var scd *scheduler = nil
 
 func init() {
-	scd = &scheduler{unitMinder: newUnitTimer(), timeWheeler: newWheeler()} // todo:补充
+	scd = &scheduler{unitMinder: newUnitTimer(), timeWheeler: newWheeler()}
 	//go func() {
 	//	tick := time.Tick(10 * time.Second)
 	//	for {
